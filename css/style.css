@@ -1,0 +1,153 @@
+footer
+{
+    background: #2699FB;
+    color:#FFF;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    margin: -15px;
+    margin-top: 10px;
+}
+.contact
+{
+    float: none;
+	color: #444444;
+	font-family: Arial;
+}
+#url
+{
+  float: right;
+  margin: 20px;
+  padding: 25px;
+}
+button
+{
+    display: none;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #2699FB;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 20%;
+    left: 0%;
+}
+li
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: #FACA8C;
+}
+h3
+{
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+h4
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+.p1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width:750px;
+    float: left;
+}
+.img
+{
+    flex-basis: 65%;
+    height: 200px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ol 
+{
+	list-style-type: upper-roman;
+}
+#body1
+{
+    background-color: #f5f5f5;
+}
+p
+{
+    font-family: Futura;
+    float: left;
+}
+.header1
+{
+    font-family: Berlin Sans FB;
+    text-align: center;
+    background: #fff;
+    color: #2699FB;
+    padding: 1px;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0;
+}
+video
+{
+    margin: 0 auto;
+    width: 80%;
+    height: 500px;
+    z-index: -100;
+    padding: 12%;
+
+}
+.clubs
+{
+    color:#2699FB;
+}
+@media screen and (max-width:600px)
+{
+    .ul a.icon
+    {
+        float:right;
+        display: block;
+    }
+}
+@media screen and (max-width:1179px)
+{
+    ul{
+        flex-direction: column;
+    }
+    li{
+        margin: 0;
+    }
+    a{
+        display: block;
+    }
+    p{
+        font-size: 80%;
+        font-family: Futura;
+    }
+}
+@media screen and (max-width:480px)
+{
+    p{
+        font-size: 80%;
+        font-family: Futura;
+    }
+}
